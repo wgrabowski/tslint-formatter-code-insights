@@ -1,0 +1,23 @@
+{
+  "name": "tslint-formatter-code-insights",
+  "version": "0.0.1",
+  "description": "Formats TSLint output to Bitbucket Code Insight annotations format",
+  "main": "codeInsightFormatter.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc -d",
+    "test": "jest"
+  },
+  "repository": "https://github.com/wgrabowski/tslint-formatter-code-insights.git",
+  "author": {
+    "name": "Wojciech Grabowski",
+    "email": "wojtek@wojciech-grabowski.pl"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.4.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.0.3"
+  }
+}
