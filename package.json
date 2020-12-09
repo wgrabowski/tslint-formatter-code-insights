@@ -1,6 +1,6 @@
 {
   "name": "tslint-formatter-code-insights",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Formats TSLint output to Bitbucket Code Insight annotations format",
   "main": "codeInsightFormatter.js",
   "scripts": {
