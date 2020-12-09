@@ -30,9 +30,8 @@ export class Formatter extends Lint.Formatters.AbstractFormatter {
 		return {
 			line: failure.getStartPosition().getLineAndCharacter().line,
 			severity: this.severityMap[failure.getRuleSeverity()],
-			message: failure.getFailure(),
-			path: failure.getFileName(),
-			externalId: failure.getRuleName()
+			message: failure.getRuleName() + ": " +failure.getFailure(),
+			path: failure.getFileName()
 		}
 	}
 }
